@@ -1,3 +1,9 @@
 language: node_js
 node_js:
- - "node"
+- node
+env:
+  matrix:
+  - MY_VAR=EverythignIsAwesome
+  - NODE_ENV=TEST
+  global:
+    secure: opMzsl8529pZ9wgXdVWCBtcM36J+lBJVv4PuR2MiSVRNEfpLGqBT+pF6f4i7XR+M/z7idpKDdhJnwkIGczHFpefrcbCghfIqDrPSQaue8zkTIcJ1UZJ+Q9zbq2OIQiCLhXcoFFyWDgiR3s6jJqagIaWUS5DWe9gtPkFV098kinxMqZWBwGP4TMeOKxaKBri73LyV18r9ktL4nr6S829LgHwWGVx3L9OBEUxdPstXkXn/5ZqNE9WvdxQZ2PTwlUSw2hb7DzezfUPg47AxCN0m80iEKsSA04CO97t8PVZewxbXO+GDwV+wbcvRYbrRB+suM9lHHYPq/6oH69R6sHgwxtukS/TjOI7WXapYhDcyIvmYIsSJBSsGsYKvMbp/3eIoXFDJjdVbwU7DuhLE1RiI4TUWJ8SRRjcEwDVi25d3PXJbea9g8d/xKt4ZKVihjuX/7IRCnbRGkYIo+BTSIIZpiDXu0Ha/UVQm2soTVq2jhpMZeSCIfKGVqu25BkA+OYPqfZcOxVBcYh+YHC3TKZmoDUAg7P+B+++hJKaBzeq/pL2gVf8TdGDrU1CnxOGPHVjabtPwp3s2BfdJlDYxLXgsz8KgzvmdClILJ3mJ23izmYlLmCqxTZEM3O4gfU4gjMcmEz6Dy1e8iG7v/TJAnmcAdObub+YLH1NnacYcn4VFzM4=
